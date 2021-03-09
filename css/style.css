@@ -1,0 +1,28 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+section {
+  background-color: white;
+  display: grid;
+  width: 100%;
+  margin: auto;
+  padding: 10px;
+  grid-template-columns: 500px 500px 500px;
+  grid-template-rows: 120px 120px 120px 120px 120px;
+  gap: 20px;
+  text-align: center;
+}
+
+div {
+  background-color: white;
+  border: 1px solid #333;
+  padding: 20px;
+  border-radius: 25px;
+}
+
+.color {
+  background-color: rgb(235, 235, 235);
+}
